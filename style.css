@@ -1,0 +1,30 @@
+.login {
+    margin-bottom:5px;
+}
+.dropdown-menu {
+    width: 300px !important;
+}
+header {
+    z-index: 5;
+}
+
+#logo {
+    fill: aqua;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+  }
+
+#navbar-opacity {
+    opacity: 90%;
+}
+
+#techbg {
+    background-color: aquamarine;
+}
+
+#face {
+    max-height: 300px;
+}
