@@ -83,10 +83,10 @@
 <section class="bg-primary p-5 text-light align-items-center">
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-md-3 justify-content-center">
+            <div class="col-md-3 justify-content-center text-center">
                 <img id="face" src="./photos/Face for logo.png">
             </div>
-            <div class="col-md-6 justify-content-between " id="about_me">
+            <div class="col-sm-12 col-lg-6 justify-content-center" id="about_me">
                 <h1>About Me</h1>
                 <p>I am a Lifelong learner, Full Stack Developer, Business Strategist, and Marketing and Leadership fanatic. I love coming up with solutions to practical problems and fuel on the development process. I have more than 15+ years of experience working in the multiple industries, including technology, manufacturing, marketing, and construction. I have a Bachelor degree in Mathematics, a Masters degree in Marketing, and I am currently pursuing a PhD in Leadership. I have also undertaken multiple software development courses including, the Generation USA Junior Full Stack Web Developer bootcamp and multiple other courses.</p>
             </div>
@@ -101,7 +101,7 @@
         <div class="container-fluid">
             
             <div class="d-flex d-inline-block align-items-center justify-content-center " id="languages_logo_row" style="display: inline-block;">
-                <h5 class="col-2">Technologies I use</h5>
+                <h5 class="col-md-2">Technologies I use</h5>
                 <img class="col-1" style="max-width: 50px;" src="./photos/html_logo.png">
                       
                 <img class="col-1" style="max-width: 50px;" src="./photos/css_logo.png">
@@ -125,8 +125,39 @@
 <!-- Technologies I use container ends here -->
 
 <!-- Portfolio container starts here -->
-
-
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 p-5">
+            <h1 class="col-sm-12 text-primary text-center" id="myportfolio">Portfolio</h1>
+        </div>
+        <div id="carouselExampleIndicators" class="col-sm-12 col-lg-8 p-4 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./photos/portfolio_image_1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./photos/portfolio_image_2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./photos/portfolio_image_3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
 
 <!-- Portfolio container ends here -->
 
@@ -242,51 +273,42 @@
        </div>
     </div>
 </section>
-
-
 <!-- Contact me ends here -->
 
+<!-- Footer starts here -->
 <div class="container-fluid">
     <div class="row p-5 bg-dark text-light justify-content-center">
 
-        <div class="col-sm-3  m-4">  
-            <h5>Latest Posts</h5>
-            <div class="row">
-                <div class="col-sm-2">
-                    <i class="bi bi-calendar2-date" style='font-size:32px;'></i>
-                </div>
-                <div class="col">
-                    <h6>Sub Heading</h6>
-                    <p>Content for sub item</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2">
-                    <i class="bi bi-calendar2-date" style='font-size:32px;'></i>
-                </div>
-                <div class="col">
-                    <h6>Sub Heading</h6>
-                    <p>Content for sub item</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2">
-                    <i class="bi bi-calendar2-date" style='font-size:32px;'></i>
-                </div>
-                <div class="col">
-                    <h6>Sub Heading</h6>
-                    <p>Content for sub item</p>
-                </div>
-            </div>
-
+        <div class="col-sm-2  ml-5">  
+            <h5>Pages</h5>
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="#about_me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#myportfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#myblog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contactme">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary" href="https://calendly.com/goitomkassaye/30min" target="_blank">Book Meeting</a>
+                </li>
+            </ul>
         </div>
 
-        <div class="col-sm-3 m-4">
-            <h5>About</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto consequatur porro perferendis ducimus laborum delectus odio quae repellat voluptatibus voluptatum. Assumenda, suscipit quod dolorem ratione id soluta magnam delectus ex recusandae repellat, a, distinctio sint eaque! Quia placeat blanditiis ipsam?</p>
+        <div class="col-sm-3 m-1">
+            <h5>Philosopy</h5>
+            <p>You are never free until you are freed from the desires of the body.</p>
         </div>
 
-        <div class="col-sm-3 text-light m-4">
+        <div class="col-sm-2 text-light m-4">
             <h5>Stay Connected</h5>
             <p><a href="https://www.linkedin.com/in/goitom-kassaye-21875944/" target="_blank"><i class="bi-linkedin text-light m-1"></i></a>
                 <a href="https://github.com/GoitomS" target="_blank"><i class="bi-github text-light m-1"></i></a>
@@ -296,17 +318,17 @@
         </div>
     </div>
 </div>
-<!-- 3rd container ends here -->
+<!-- Footer ends here -->
 
 
-<!-- footer starts here -->
+<!-- copyright footer starts here -->
 
     <footer class="nav justify-content-center">
         Copyright 2022. All rights reserved.
     </footer>
 
 
-<!-- footer ends here -->
+<!-- copyright footer ends here -->
 
     <!-- Add your JS Bundle script under this comment. Nothing else should go under here. -->
 
