@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;1,100&family=Space+Mono&family=Tapestry&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+
 </head>
 
 <body>
@@ -65,13 +66,13 @@
         <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
             <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
-                <h1 class="mb-3 text-primary" style="font-weight: lighter; font-size: 70pt;">Portfolio</h1>
+                <h1 class="mb-3" style="font-weight: lighter; font-size: 70pt;" id="anim-test">Portfolio</h1>
                 <h4 class="mb-3">Goitom S. Kassaye</h4>
                 <p class="mb-3">Fullstack Developer | Lifelong Learner | Marketing & Leadership Fanatic</p>
-                <p style="font-size: 2em;">
-                    <a href="https://www.linkedin.com/in/goitom-kassaye-21875944/" target="_blank"><i class="bi-linkedin p-3 text-light"></i></a>
-                    <a href="https://github.com/GoitomS" target="_blank"><i class="bi-github text-light p-3"></i></a>
-                    <a href="https://twitter.com/Japusolomon" target="_blank"><i class="bi-twitter text-light p-3"></i></a>
+                <p style="font-size: 2em;" >
+                    <a href="https://www.linkedin.com/in/goitom-kassaye-21875944/" target="_blank"><i class="bi-linkedin p-3" id="smbuttons"></i></a>
+                    <a href="https://github.com/GoitomS" target="_blank"><i class="bi-github p-3"></i></a>
+                    <a href="https://twitter.com/Japusolomon" target="_blank"><i class="bi-twitter p-3"></i></a>
                 </p>
             </div>
             </div>
@@ -80,15 +81,15 @@
 <!-- Jumbotron ends here -->
 
 <!-- About Me container starts here -->
-<section class="bg-primary p-5 text-light align-items-center">
+<section class="bg-primary p-5 text-light text-center text-sm-start">
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-3 justify-content-center text-center">
-                <img id="face" src="./photos/Face for logo.png">
+                <img id="face" src="./photos/Face-for-logo.svg">
             </div>
             <div class="col-sm-12 col-lg-6 justify-content-center" id="about_me">
                 <h1>About Me</h1>
-                <p>I am a Lifelong learner, Full Stack Developer, Business Strategist, and Marketing and Leadership fanatic. I love coming up with solutions to practical problems and fuel on the development process. I have more than 15+ years of experience working in the multiple industries, including technology, manufacturing, marketing, and construction. I have a Bachelor degree in Mathematics, a Masters degree in Marketing, and I am currently pursuing a PhD in Leadership. I have also undertaken multiple software development courses including, the Generation USA Junior Full Stack Web Developer bootcamp and multiple other courses.</p>
+                <p>I am a Lifelong learner, Full Stack Developer, Business Strategist, and Marketing and Leadership fanatic. I love coming up with solutions to practical problems and take pleasure in the development/execution process. I have more than 15+ years of work experience from graphic/web design to C-level executive positions working in multiple industries, including technology, manufacturing, marketing, and construction. <br><br>I have a bachelor`s degree in mathematics, a master`s degree in Marketing, and I am currently pursuing a PhD in Leadership at Gonzaga University. I have finished the Full Stack Web development bootcamp at Generation USA with 460+ hours of practical experience in working with html, css, JavaScript, Bootstrap, git/github, Java, MySQL, and REST API's. I have also taken multiple supplementary courses and have enough knowledge and experience of working with OracleSQL, Vue.js , PHP and Laravel.</p>
             </div>
         </div>           
     </div>
@@ -97,26 +98,31 @@
 
 <!-- Technologies I use container starts here -->
 
-<section class=" p-5 text-dark align-items-center" style="background-color: rgba(226, 226, 226, 0.4);">
+<section class=" p-5 text-dark text-center text-md-start" style="background-color: rgba(226, 226, 226, 0.4);">
         <div class="container-fluid">
-            
-            <div class="d-flex d-inline-block align-items-center justify-content-center " id="languages_logo_row" style="display: inline-block;">
-                <h5 class="col-md-2">Technologies I use</h5>
-                <img class="col-1" style="max-width: 50px;" src="./photos/html_logo.png">
+            <div class="row align-items-center justify-content-center text-center" id="languages_logo_row" >
+                <div class="col-12 col-md-4">
+                    <h5 class="text-primary" style="font-weight: bold; font">Technologies I use</h5>
+                </div>
+                <div class="col-12 col-md-8">
+                
+                    <img class="col-1" src="./photos/html_logo.png">
                       
-                <img class="col-1" style="max-width: 50px;" src="./photos/css_logo.png">
-           
-                <img class="col-1" style="max-width: 50px;" src="./photos/JS_logo.png">
-          
-                <img class="col-1" style="max-width: 50px;" src="./photos/java_logo.png">
+                    <img class="col-1" src="./photos/css_logo.png">
+            
+                    <img class="col-1"  src="./photos/JS_logo.png">
+            
+                    <img class="col-1"  src="./photos/java_logo.png">
 
-                <img class="col-1" style="max-width: 50px;" src="./photos/oraclesql_logo.png">
+                    <img class="col-1" src="./photos/oraclesql_logo.png">
 
-                <img class="col-1" style="max-width: 50px;" src="./photos/sql_logo.png">
+                    <img class="col-1"  src="./photos/sql_logo.png">
 
-                <img class="col-1" style="max-width: 50px;" src="./photos/photoshop_logo.png">
+                    <img class="col-1" src="./photos/photoshop_logo.png">
 
-                <img class="col-1" style="max-width: 50px;" src="./photos/illustrator_logo.png">
+                    <img class="col-1"  src="./photos/illustrator_logo.png">
+                </div>
+                
            </div>
         </div>
 </section>
@@ -167,21 +173,10 @@
 
         <h1 class="col-sm-12 text-primary text-center" id="myblog">Blog</h1>
         <div class="card m-4" style="width: 18rem;">
-            <img src="./photos/pic3.jpg"  width="100" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">A journey in tech</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Read</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="card m-4" style="width: 18rem;">
             <img src="./photos/pic2.jpg"  width="100" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">The CX Paradox</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Technology & Stoicism</h5>
+              <p class="card-text">Stoics believe that concerns about technology should only be about the owners not the technology.</p>
               <div class="d-grid gap-2">
                 <button class="btn btn-primary" type="button">Read</button>
               </div>
@@ -191,8 +186,19 @@
           <div class="card m-4" style="width: 18rem;">
             <img src="./photos/pic1.jpg"  width="100" class="card-img-top" alt="...">
             <div class="card-body">
+              <h5 class="card-title">The CX Paradox</h5>
+              <p class="card-text">With rocketing CX “investment” when will the return on CX expenditure match the investment?</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Read</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card m-4" style="width: 18rem;">
+            <img src="./photos/pic3.jpg"  width="100" class="card-img-top" alt="...">
+            <div class="card-body">
               <h5 class="card-title">Leadership in tech</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Creating support for digital agendas by developing a pool of talent that will compete, grow, and innovate.</p>
               <div class="d-grid gap-2">
                 <button class="btn btn-primary" type="button">Read</button>
               </div>
@@ -203,7 +209,7 @@
 
 <!-- My Blog container ends here -->
 
-<!-- Contact me startys here -->
+<!-- Contact me starts here -->
 <section class=" p-5 text-dark align-items-center" style="background-color: rgba(160, 160, 160, 0.7);">
     <div class="container-fluid">
         <form id="contact-form" method="post" action="contact.php" role="form">
@@ -240,9 +246,9 @@
                             <label for="form_need">Please specify your need *</label>
                             <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
                                 <option value=""></option>
-                                <option value="Request quotation">Request quotation</option>
-                                <option value="Request order status">Request order status</option>
-                                <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                <option value="Request quotation">Request for freelance work</option>
+                                <option value="Request order status">Request for job offer</option>
+                                <option value="Request copy of an invoice">Request for collaboration</option>
                                 <option value="Other">Other</option>
                             </select>
                             <div class="help-block with-errors"></div>
