@@ -58,7 +58,7 @@
     <!-- Navigation Bar ends here -->
 
    
-    <!-- jumbotron starts here -->
+    <!-- Banner starts here -->
     <div class="p-5 text-center bg-image" style="
     background-image: url('./photos/background_final.jpg');
     height: 400px;
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-<!-- Jumbotron ends here -->
+<!-- Banner ends here -->
 
 <!-- About Me container starts here -->
 <section class="bg-primary p-5 text-light text-center text-sm-start">
@@ -101,26 +101,28 @@
 <section class=" p-5 text-dark text-center text-md-start" style="background-color: rgba(226, 226, 226, 0.4);">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-center text-center" id="languages_logo_row" >
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-3">
                     <h5 class="text-primary" style="font-weight: bold;">Technologies I use</h5>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-md-9">
                 
                     <img class="col-1" src="./photos/html_logo.png">
                       
                     <img class="col-1" src="./photos/css_logo.png">
             
-                    <img class="col-1"  src="./photos/JS_logo.png">
+                    <img class="col-1" src="./photos/JS_logo.png">
             
-                    <img class="col-1"  src="./photos/java_logo.png">
+                    <img class="col-1" src="./photos/java_logo.png">
 
                     <img class="col-1" src="./photos/oraclesql_logo.png">
 
-                    <img class="col-1"  src="./photos/sql_logo.png">
+                    <img class="col-1" src="./photos/sql_logo.png">
 
                     <img class="col-1" src="./photos/photoshop_logo.png">
 
-                    <img class="col-1"  src="./photos/illustrator_logo.png">
+                    <img class="col-1" src="./photos/illustrator_logo.png">
+
+                    <img class="col-1" src="./photos/XD logo.jpg" style="width:7.8%; margin-top: 18px;">
                 </div>
                 
            </div>
@@ -212,7 +214,7 @@
 <!-- Contact me starts here -->
 <section class=" p-5 text-dark align-items-center" style="background-color: rgba(160, 160, 160, 0.7);">
     <div class="container-fluid">
-        <form id="contact-form" method="post" action="contact.php" role="form">
+        <form id="contact-form" method="post" role="form">
 
             <div class="col-12 text-center messages text-primary" id="contactme"><h1>Contact Me</h1></div>
         
@@ -264,16 +266,10 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <input type="submit" class="btn btn-success btn-send" value="Send message">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <p class="text-muted">
+                        <button type="submit" onclick="notification()" class="btn btn-success btn-send" value="Send message">Send Message</button>
                     </div>
                 </div>
             </div>
-        
         </form>
             
        </div>
@@ -337,7 +333,7 @@
 <!-- copyright footer ends here -->
 
     <!-- Add your JS Bundle script under this comment. Nothing else should go under here. -->
-
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
