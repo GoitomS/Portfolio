@@ -29,17 +29,17 @@ h2{
     max-height: 300px;
 }
 
-@keyframes example {
+/* @keyframes example {
     to {color:blue}
-  }
+  } */
 
   /* The element to apply the animation to */
-  #anim-test {
+  /* #anim-test {
     animation-name: example;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
+  } */
   
 
 .bi-linkedin:hover {
