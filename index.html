@@ -218,63 +218,63 @@
 <!-- Contact me starts here -->
 <section class=" p-5 text-dark align-items-center" style="background-color: rgba(160, 160, 160, 0.7);">
     <div class="container-fluid">
-        <form id="contact-form" method="post" role="form">
+        
 
             <div class="col-12 text-center messages text-primary" id="contactme"><h1>Contact Me</h1></div>
         
-            <div class="controls">
+            
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <div class="form-group">
+                        
                             <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                            <input id="form_name" type="text" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
                             <div class="help-block with-errors"></div>
-                        </div>
+                        
                     </div>
                     <div class="col-md-4">
-                        <div class="form-group">
+                        
                             <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                            <input id="form_lastname" type="text" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
                             <div class="help-block with-errors"></div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <div class="form-group">
+                        
                             <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <input id="form_email" type="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                             <div class="help-block with-errors"></div>
-                        </div>
+                       
                     </div>
                     <div class="col-md-4">
-                        <div class="form-group">
+                        
                             <label for="form_need">Please specify your need *</label>
-                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                            <select id="form_need" class="form-control" required="required" data-error="Please specify your need.">
                                 <option value=""></option>
-                                <option value="Request quotation">Request for freelance work</option>
-                                <option value="Request order status">Request for job offer</option>
-                                <option value="Request copy of an invoice">Request for collaboration</option>
+                                <option value="Request for freelance work">Request for freelance work</option>
+                                <option value="Job offer">Job offer</option>
+                                <option value="Request for collaboration">Request for collaboration</option>
                                 <option value="Other">Other</option>
                             </select>
                             <div class="help-block with-errors"></div>
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="form-group">
+                       
                             <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <textarea id="form_message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                             <div class="help-block with-errors"></div>
-                        </div>
+                        
                     </div>
                     <div class="col-md-8">
-                        <button type="submit" onclick="notification()" class="btn btn-success btn-send" value="Send message">Send Message</button>
+                        <button type="button" onclick="capture()" class="btn btn-success btn-send">Send Message</button>
                     </div>
                 </div>
-            </div>
-        </form>
+            
+        
             
        </div>
     </div>
@@ -337,6 +337,7 @@
 <!-- copyright footer ends here -->
 
     <!-- Add your JS Bundle script under this comment. Nothing else should go under here. -->
+    <script src="messageController.js"></script>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
