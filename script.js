@@ -18,6 +18,8 @@ function capture(){
         alert("Please fillout all fields");
     
            }
+}
 
-
+const underConAlert = ()=>{
+    alert('This page is still under construction, please checkback later. Thanks!')
 }

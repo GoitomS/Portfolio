@@ -88,7 +88,7 @@
             </div>
             <div class="col-sm-12 col-lg-6 justify-content-center" id="about_me">
                 <h1>About Me</h1>
-                <p>I am a Lifelong learner, Full Stack Developer, Business Strategist, and Marketing and Leadership fanatic. I love coming up with solutions to practical problems and take pleasure in the development/execution process. I have more than 15+ years of work experience from graphic/web design to C-level executive positions working in multiple industries, including technology, advertising, and marketing. <br><br>I have a bachelor`s degree in mathematics, a master`s degree in Marketing, and I am currently pursuing a PhD in Leadership Studies at Gonzaga University.</p>
+                <p>I am a Lifelong learner, Full Stack Developer, Business Strategist, and Marketing and Leadership fanatic. I love coming up with solutions to practical problems and take pleasure in the design, development and execution processes. I have 10+ years of work experience from graphic/web/software design and development to C-level executive positions working in multiple industries, including technology, advertising, and marketing. <br><br>I have a bachelor`s degree in mathematics, a master`s degree in Marketing, and I am currently pursuing a PhD in Leadership Studies at Gonzaga University.</p>
             </div>
         </div>           
     </div>
@@ -213,12 +213,12 @@
 <!-- Technologies I use container ends here -->
 
 <!-- Portfolio container starts here -->
-<div class="container">
-    <div class="row justify-content-center">
+<div class="container-fluid" style="background-color: black;">
+    <div class="row justify-content-center mb-4">
         <div class="col-sm-12 p-5">
             <h1 class="col-sm-12 text-primary text-center" id="myportfolio">Portfolio</h1>
         </div>
-        <div id="carouselExampleIndicators" class="col-sm-12 col-lg-8 p-4 carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="col-sm-12 col-lg-8 p-4 carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -263,7 +263,7 @@
 <!-- Portfolio container ends here -->
 
 <!-- My Blog container starts here -->
-<div class="container">
+<div class="container" >
     <div class="row m-5 justify-content-center">
 
         <h1 class="col-sm-12 text-primary text-center" id="myblog">Blog</h1>
@@ -273,7 +273,7 @@
               <h5 class="card-title">Technology & Stoicism</h5>
               <p class="card-text">Stoics believe that concerns about technology should only be about the owners not the technology.</p>
               <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Read</button>
+                <button class="btn btn-primary" type="button" onclick="underConAlert()">Read</button>
               </div>
             </div>
           </div>
@@ -284,7 +284,7 @@
               <h5 class="card-title">The CX Paradox</h5>
               <p class="card-text">With rocketing CX “investment” when will the return on CX expenditure match the investment?</p>
               <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Read</button>
+                <button class="btn btn-primary" type="button" onclick="underConAlert()">Read</button>
               </div>
             </div>
           </div>
@@ -295,7 +295,7 @@
               <h5 class="card-title">Leadership in tech</h5>
               <p class="card-text">Creating support for digital agendas by developing a pool of talent that will compete, grow, and innovate.</p>
               <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button">Read</button>
+                <button class="btn btn-primary" type="button" onclick="underConAlert()">Read</button>
               </div>
             </div>
           </div>
@@ -405,9 +405,9 @@
 
         <div class="col-sm-2 text-primary">
             <h5>Stay Connected</h5>
-            <p><a href="https://www.linkedin.com/in/goitom-kassaye-21875944/" target="_blank"><i class="bi-linkedin text-light m-2" style="font-size: 2em;"></i></a>
-                <a href="https://github.com/GoitomS" target="_blank"><i class="bi-github text-light m-2" style="font-size: 2em;"></i></a>
-                <a href="https://twitter.com/Japusolomon" target="_blank"><i class="bi-twitter text-light m-2" style="font-size: 2em;"></i>
+            <p><a href="https://www.linkedin.com/in/goitom-kassaye-21875944/" target="_blank"><i class="bi-linkedin text-light m-2" style="font-size: 2em;" id="bln"></i></a>
+                <a href="https://github.com/GoitomS" target="_blank" id="bgh"><i class="bi-github text-light m-2" style="font-size: 2em;" ></i></a>
+                <a href="https://twitter.com/Japusolomon" target="_blank" id="btw"><i class="bi-twitter text-light m-2" style="font-size: 2em;" ></i>
                 
             </p>
         </div>
